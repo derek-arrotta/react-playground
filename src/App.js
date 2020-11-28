@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import Accordian from './state-drills/Accordian';
+//import Accordian from './state-drills/Accordian';
 //import Messages from './Messages';
 //import TheDate from './state/TheDate';
 //import Counter from './state/Counter'
@@ -8,7 +8,7 @@ import Accordian from './state-drills/Accordian';
 //import Bomb from './state-drills/Bomb'
 //import RouletteGun from './state-drills/RouletteGun';
 //import Tabs from './state/Tabs'
-import Demonym from './demonymapp/demonym'
+import DemonymApp from './demonymapp/demonymApp'
 
 /*
 const tabsProp = [
@@ -40,11 +40,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Demonym />
+        <DemonymApp />
       </div>
     );
   }
 }
+
+
 //<Accordian sections={sections} />
 //<Tabs tabs={tabsProp} />
 //<TheDate />
