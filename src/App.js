@@ -7,8 +7,10 @@ import Accordian from './state-drills/Accordian';
 //import HelloWorld from './state-drills/HelloWorld';
 //import Bomb from './state-drills/Bomb'
 //import RouletteGun from './state-drills/RouletteGun';
-import Tabs from './state/Tabs'
+//import Tabs from './state/Tabs'
+import Demonym from './demonymapp/demonym'
 
+/*
 const tabsProp = [
   { name: 'First tab',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur. Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque.' },
@@ -32,16 +34,18 @@ const sections = [
     content: 'Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?',
   },
 ]
+*/
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Accordian sections={sections} />
+        <Demonym />
       </div>
     );
   }
 }
+//<Accordian sections={sections} />
 //<Tabs tabs={tabsProp} />
 //<TheDate />
 //<Counter count={123} step={2}/>
